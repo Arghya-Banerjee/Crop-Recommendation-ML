@@ -1,6 +1,9 @@
 
 # Crop Recommendation using Machine Learning
 
+![Img](https://user-images.githubusercontent.com/72212592/218297244-274dffed-9135-4674-8c75-ef450cfe86b1.png)
+
+
 A crop recommendation model using a decision tree classifier is an AI-powered tool that provides personalized recommendations for farmers to optimize their crop production. This model uses a decision tree algorithm to analyze a wide range of factors that impact crop growth, such as soil elements like Nitrogen, Pottassium and Phosphorus, temperature, rainfall, soil ph.
 
 By considering these various factors and the unique characteristics of each farm, the model is able to provide a customized recommendation for which crops will thrive in the specific conditions of each farm. This can help farmers maximize their yields and increase their profits while also ensuring the sustainability of their operations.
