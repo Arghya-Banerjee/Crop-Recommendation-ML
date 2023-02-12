@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Input Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <h1>Enter the following information to predict Crop:</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <label for="Nitrogen">Nitrogen:</label>
+      <input type="text" id="Nitrogen" name="Nitrogen"><br><br>
+      <label for="Potassium">Potassium:</label>
+      <input type="text" id="Potassium" name="Potassium"><br><br>
+      <label for="Phosphorus">Phosphorus:</label>
+      <input type="text" id="Phosphorus" name="Phosphorus"><br><br>
+      <label for="Rainfall">Rainfall:</label>
+      <input type="text" id="Rainfall" name="Rainfall"><br><br>
+      <label for="pH">pH:</label>
+      <input type="text" id="pH" name="pH"><br><br>
+      <label for="Temperature">Temperature:</label>
+      <input type="text" id="Temperature" name="Temperature"><br><br>
+      <label for="Humidity">Humidity:</label>
+      <input type="text" id="Humidity" name="Humidity"><br><br>
+      
+      <button type="submit">Predict</button>
+    </form>
+
+
+    <h2>{{ predictionText }}</h2>
+
+  </body>
+</html>
