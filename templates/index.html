@@ -22,11 +22,14 @@
       <label for="Humidity">Humidity:</label>
       <input type="text" id="Humidity" name="Humidity"><br><br>
       
-      <button type="submit">Predict</button>
+      <div class="btn">
+        <button type="submit">Predict</button>
+      </div>
+      
     </form>
 
 
-    <h2>{{ predictionText }}</h2>
+    <h2 id="answer">{{ predictionText }}</h2>
 
   </body>
 </html>
