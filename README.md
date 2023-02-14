@@ -14,6 +14,8 @@ Overall, this crop recommendation model is a valuable resource for farmers looki
 
 Source of Data: [Crop Recommendation Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset)
 
+Project Link: [Crop Recommendation Model](https://crop-recommendation-ml.onrender.com)
+
 
 
 
