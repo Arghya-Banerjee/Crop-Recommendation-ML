@@ -14,6 +14,8 @@ Overall, this crop recommendation model is a valuable resource for farmers looki
 
 Source of Data: [Crop Recommendation Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset)
 
+Project Link: [Crop Recommendation Model](https://crop-recommendation-ml.onrender.com)
+
 
 
 
@@ -52,4 +54,45 @@ Once you run the script, the website should now be up and running on your local 
 - **Machine Learning Algorithms:** The model utilizes machine learning algorithms, such as decision tree classifiers, to analyze the data and provide recommendations.
 
 - **User-Friendly Interface:** The model has a user-friendly interface that makes it easy for farmers to access and understand the recommendations, without requiring any technical knowledge.
+
+
+## Code Structure
+
+```
+|   .gitattributes
+|   app.py
+|   Crop Recommendation ML.ipynb
+|   crop_recommendationDTC.pkl
+|   Img.png
+|   LICENSE
+|   output.txt
+|   README.md
+|   requirements.txt
+|   
++---.ipynb_checkpoints
+|       Crop Recommendation ML-checkpoint.ipynb
+|       
++---app
++---Dataset
+|       Crop_recommendation.csv
+|       
++---static
+|   \---css
+|           style.css
+|           
+\---templates
+        index.html        
+```
+## Deployment
+
+This is project is deployed on Render.
+
+Following are the specifics of Deployment:
+
+- **Type** -> Web Service
+- **Environment** -> Python
+- **Region** -> Oregon
+- **Build Command** -> ` pip install - r requirements.txt `
+- **Deployment Command** -> ` gunicorn app:app `
+
 
